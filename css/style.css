@@ -1,0 +1,43 @@
+body {
+    background-color: gainsboro;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    min-height: 100vh;
+    background-color: white;
+}
+nav {
+    background-color: aliceblue;
+    color: grey;
+    padding: 0.1rem 0;
+    font-size: 0;
+}
+
+nav ul{
+    width: 100%;
+    padding: 0;
+}
+
+nav li {
+    text-align: center;
+    list-style-type: none;
+    padding: 0.4rem 0;
+    font-size: 1rem;
+    border-bottom: 1px solid white;
+}
+@media screen and (min-width: 680px) {
+    .container {
+        width: 75%;
+    }
+    nav {
+        padding: 1rem 0;
+        width: 100%;
+        vertical-align: bottom;
+    }
+    nav li {
+        display: inline-block;
+        width: 20%;
+        border: none;
+    }
+}
